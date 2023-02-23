@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f55b29e-eade-4346-9360-cf9338943ab8" name="Changes" comment="TEST-1: Changed readme">
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+    <list default="true" id="9f55b29e-eade-4346-9360-cf9338943ab8" name="Changes" comment="TEST-1: Added requirements">
+      <change afterPath="$PROJECT_DIR$/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/BasePage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/GoogleSearchPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/jenkins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/jenkins_is_up_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <list id="d5a154d9-d410-4e13-baee-065ab7ef6b07" name="New changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +33,11 @@
         <option value="middlepp &lt;middppark@gmail.com&gt;" />
       </list>
     </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -44,26 +54,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TODO_SCOPE": "All Places",
-    "last_opened_file_path": "C:/Users/middp/PycharmProjects/week7",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/middp/PycharmProjects/week7&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings module-name="week7" is-module-sdk="true">
+      <console-settings is-module-sdk="true">
         <option name="myUseModuleSdk" value="true" />
-        <option name="myModuleName" value="week7" />
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.12">
-    <configuration name="12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for jenkins_is_up_test.TestJenkinsIsUp.test_jenkins_is_up">
+    <configuration name="jenkins" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="week7" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/12.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/jenkins.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="jenkins_is_up_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="week7" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,11 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/conftest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/jenkins_is_up_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,63 +135,63 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_first_ui.TestFirstUi" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for jenkins_is_up_test.TestJenkinsIsUp" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="week7" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_first_ui.TestFirstUi&quot;" />
+      <option name="_new_target" value="&quot;jenkins_is_up_test.TestJenkinsIsUp&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_first_ui.TestFirstUi.test_open_browser" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for jenkins_is_up_test.TestJenkinsIsUp.test_jenkins_is_up" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="week7" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_first_ui.TestFirstUi.test_open_browser&quot;" />
+      <option name="_new_target" value="&quot;jenkins_is_up_test.TestJenkinsIsUp.test_jenkins_is_up&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_first_ui.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in jenkins_is_up_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="week7" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_first_ui.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pages/jenkins_is_up_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.12" />
-      <item itemvalue="Python.conftest" />
-      <item itemvalue="Python tests.Python tests for test_first_ui.TestFirstUi" />
-      <item itemvalue="Python tests.Python tests in test_first_ui.py" />
-      <item itemvalue="Python tests.Python tests for test_first_ui.TestFirstUi.test_open_browser" />
+      <item itemvalue="Python.jenkins_is_up_test" />
+      <item itemvalue="Python.jenkins" />
+      <item itemvalue="Python tests.Python tests for jenkins_is_up_test.TestJenkinsIsUp" />
+      <item itemvalue="Python tests.Python tests for jenkins_is_up_test.TestJenkinsIsUp.test_jenkins_is_up" />
+      <item itemvalue="Python tests.Python tests in jenkins_is_up_test.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.conftest" />
-        <item itemvalue="Python.12" />
-        <item itemvalue="Python tests.Python tests for test_first_ui.TestFirstUi" />
-        <item itemvalue="Python tests.Python tests in test_first_ui.py" />
-        <item itemvalue="Python tests.Python tests for test_first_ui.TestFirstUi.test_open_browser" />
+        <item itemvalue="Python tests.Python tests for jenkins_is_up_test.TestJenkinsIsUp.test_jenkins_is_up" />
+        <item itemvalue="Python tests.Python tests for jenkins_is_up_test.TestJenkinsIsUp" />
+        <item itemvalue="Python tests.Python tests in jenkins_is_up_test.py" />
+        <item itemvalue="Python.jenkins_is_up_test" />
+        <item itemvalue="Python.jenkins" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676075347273</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="TEST-1: Added requirements">
+      <created>1676075965772</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676075965772</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,7 +242,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TEST-1: Changed readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="TEST-1: Changed readme" />
+    <MESSAGE value="TEST-1: Added requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="TEST-1: Added requirements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

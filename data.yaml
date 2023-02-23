@@ -1,0 +1,9 @@
+common:
+  url: www.google.com
+qa:
+  login: username
+  password: pass11
+stage:
+  login: username
+  password: pass11
+prod:
