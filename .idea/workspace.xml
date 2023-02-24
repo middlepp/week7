@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f55b29e-eade-4346-9360-cf9338943ab8" name="Changes" comment="TEST-1: Added requirements">
-      <change afterPath="$PROJECT_DIR$/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/BasePage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/GoogleSearchPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/jenkins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/jenkins_is_up_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/jenkins_is_up_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/jenkins_is_up_test.py" afterDir="false" />
     </list>
     <list id="d5a154d9-d410-4e13-baee-065ab7ef6b07" name="New changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +34,19 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6c1690c2-13f8-458d-b68d-4d048dd10187" />
+        <option name="url" value="https://github.com/middlepp/week7.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Programs/Python/Python311/Lib/site-packages/selenium/webdriver/chrome/webdriver.py" root0="FORCE_HIGHLIGHTING" />
@@ -71,28 +78,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for jenkins_is_up_test.TestJenkinsIsUp.test_jenkins_is_up">
-    <configuration name="jenkins" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="week7" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/jenkins.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests in jenkins_is_up_test.py">
     <configuration name="jenkins_is_up_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="week7" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,6 +149,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for jenkins_is_up_test.TestJenkinsIsUp.test_title" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="week7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;jenkins_is_up_test.TestJenkinsIsUp.test_title&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in jenkins_is_up_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="week7" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,18 +180,18 @@
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.jenkins_is_up_test" />
-      <item itemvalue="Python.jenkins" />
       <item itemvalue="Python tests.Python tests for jenkins_is_up_test.TestJenkinsIsUp" />
       <item itemvalue="Python tests.Python tests for jenkins_is_up_test.TestJenkinsIsUp.test_jenkins_is_up" />
+      <item itemvalue="Python tests.Python tests for jenkins_is_up_test.TestJenkinsIsUp.test_title" />
       <item itemvalue="Python tests.Python tests in jenkins_is_up_test.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in jenkins_is_up_test.py" />
+        <item itemvalue="Python tests.Python tests for jenkins_is_up_test.TestJenkinsIsUp.test_title" />
         <item itemvalue="Python tests.Python tests for jenkins_is_up_test.TestJenkinsIsUp.test_jenkins_is_up" />
         <item itemvalue="Python tests.Python tests for jenkins_is_up_test.TestJenkinsIsUp" />
-        <item itemvalue="Python tests.Python tests in jenkins_is_up_test.py" />
         <item itemvalue="Python.jenkins_is_up_test" />
-        <item itemvalue="Python.jenkins" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676075965772</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TEST-1: Added requirements">
+      <created>1677113181183</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677113181183</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,6 +259,11 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pages/GoogleSearchPage.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
